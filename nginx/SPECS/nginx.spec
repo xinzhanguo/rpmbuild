@@ -48,7 +48,6 @@ make install DESTDIR=%{buildroot}
 %defattr(-,root,root,-)
 /usr/local/nginx
 %config(noreplace) /usr/local/nginx/conf/nginx.conf
-%config(noreplace) /usr/local/nginx/conf/vhosts/default.conf
 %config(noreplace) /lib/systemd/system/nginx.service
 
 %changelog

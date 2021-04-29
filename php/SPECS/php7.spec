@@ -19,9 +19,7 @@ Source5: php-fpm.service
 
 BuildRoot:  %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 BuildRequires:  gcc
-Requires:   openssl,openssl-devel,pcre-devel,pcre
-
-Requires: sqlite-devel,zlib-devel,libxml2-devel,gd-devel,libcurl-devel,curl-devel,mcrypt,mhash,libmcrypt-devel,oniguruma-devel,libxslt-devel
+Requires:   openssl,openssl-devel,pcre-devel,pcre,sqlite-devel,zlib-devel,libxml2-devel,gd-devel,libcurl-devel,curl-devel,mcrypt,mhash,libmcrypt-devel,oniguruma-devel,libxslt-devel
 
 %description
  php7.4 yuntu purge package.
